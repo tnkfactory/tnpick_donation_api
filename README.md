@@ -9,7 +9,7 @@ Method : GET/POST
 
 | 매크로명  | 설명   |
 |--|--|
-| PRD_ID | 상품 ID  |
+| PRD_ID | 상품 ID : 0 을 입력하면 전체 횟차(누적) 순위가 표시된다.  |
 | AUTH_KEY  | 연동인증 키(TNK대시보드에서 확인) + PRD_ID를 MD5 Hash 한 값 |
 
 
