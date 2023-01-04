@@ -4,20 +4,20 @@
 
 Method : GET/POST
 
-        /api/v1/donation/rank/{PRD_ID}/?auth_key={AUTH_KEY} 
+        /api/v1/donation/rank/{PRD_ID}/?check_cd={CHECK_CD} 
 
 
 | 매크로명  | 설명   |
 |--|--|
-| PRD_ID | 상품 ID : 0 을 입력하면 전체 횟차(누적) 순위가 표시된다.  |
-| AUTH_KEY  | 연동인증 키(TNK대시보드에서 확인) + PRD_ID를 MD5 Hash 한 값 |
+| {PRD_ID} | 상품 ID : 0 을 입력하면 전체 횟차(누적) 순위가 표시된다.  |
+| {CHECK_CD}  | md5( PRD_ID + API_KEY), api_key는 별도 전달 |
 
 
 
 ## Response
 type : JSON
 
-    { res_cd : 1 (succes) or -1 (fail_1) or -2 (fail_2) or ...
+    { res_cd : 1 (succes) or -1 (fail)
     res_msg : ""  or "에러메시지",
     prd_name : 상품명(기부상품명),
     prd_id : 상품ID,
@@ -29,9 +29,9 @@ type : JSON
 
 | 컬럼명| 설명   | 설명 |
 |--|--|--|
-| res_cd | 응답코드  | 100 (성공), 200(인증실패) |
+| res_cd | 응답코드  | 1 (성공), -1(실패) |
 | res_msg | 응답 메시지  | 성공이면 "", 실패이면 메시지 출력
-| prd_name | 상품명  | 기부상품명
+| prd_name | 상품명  | 기부상품명 
 | prd_id | 상품ID  | 기부상품 ID
 | rank_list | 순위 LIST  | 순위 List (Array). JSONArray
 
