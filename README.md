@@ -10,7 +10,7 @@ Method : GET/POST
 | 매크로명  | 설명   |
 |--|--|
 | {PRD_ID} | 상품 ID : 0 을 입력하면 전체 횟차(누적) 순위가 표시된다.  |
-| {CHECK_CD}  | md5( PRD_ID + API_KEY), api_key는 별도 전달 |
+| {CHECK_CD}  | md5hex( PRD_ID + API_KEY), api_key는 별도 전달 |
 
 
 
