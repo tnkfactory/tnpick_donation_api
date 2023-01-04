@@ -4,7 +4,7 @@
 
 Method : GET/POST
 
-        /api/v1/donation/rank/{PRD_ID}/?check_cd={CHECK_CD} 
+        https://www.tnpick.com/sho/api/v1/donation/rank/{PRD_ID}/?check_cd={CHECK_CD}
 
 
 | 매크로명  | 설명   |
