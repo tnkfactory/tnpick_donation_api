@@ -21,9 +21,9 @@ Type : JSON
 ## Request  
 
 Method : GET/POST
-
+```
 https://www.tnpick.com/sho/api/v1/donation/rank/{campaign_id}/?pid={CHECK_CD}
-
+```
 
 | 매크로명  | 설명   |
 |--|--|
