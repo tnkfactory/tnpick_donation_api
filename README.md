@@ -1,6 +1,7 @@
 # 기부 캠페인 조회
 ## Request
 Method : GET/POST
+
 ``
         https://www.tnpick.com/sho/api/v1/donation/campaign/?pid={CHECK_CD}
 ``
