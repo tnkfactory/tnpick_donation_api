@@ -75,7 +75,7 @@ type : JSON
 | donation_count | 기부건수  |
 
 
-### res_cd (응답코드)
+# res_cd (응답코드)
 | res_cd |	|
 |--|--|
 |0	|성공|
