@@ -3,7 +3,7 @@
 Method : GET/POST
 
 ```
-        https://www.tnpick.com/sho/api/v1/donation/campaign/?pid={CHECK_CD}
+https://www.tnpick.com/sho/api/v1/donation/campaign/?pid={CHECK_CD}
 ```
 
 ## Response
@@ -22,7 +22,7 @@ Type : JSON
 
 Method : GET/POST
 
-        https://www.tnpick.com/sho/api/v1/donation/rank/{campaign_id}/?pid={CHECK_CD}
+https://www.tnpick.com/sho/api/v1/donation/rank/{campaign_id}/?pid={CHECK_CD}
 
 
 | 매크로명  | 설명   |
@@ -34,7 +34,7 @@ Method : GET/POST
 
 ## Response
 type : JSON
-
+```
     { res_cd : 1 (succes) or -1 (fail)
     res_msg : ""  or "에러메시지",
     prd_name : 상품명(기부상품명),
@@ -43,7 +43,7 @@ type : JSON
                    { idol_name : text, rank : int, donation_count : int}, { ... }, ...
                 ]
     }
-  
+```  
 
 | 컬럼명| 설명   | 설명 |
 |--|--|--|
