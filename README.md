@@ -9,7 +9,7 @@ https://www.tnpick.com/sho/api/v1/donation/campaign/?pid={CHECK_CD}
 ## Response
 Type : JSON
 ```
-     { res_cd : 1 (succes) or -1 (fail)
+     { res_cd : 0 (succes) or ...
        campaign_list : [
                    { campaign_name : text, campaign_id : int }, { ... }, ...
                 ]
@@ -35,7 +35,7 @@ https://www.tnpick.com/sho/api/v1/donation/rank/{campaign_id}/?pid={CHECK_CD}
 ## Response
 type : JSON
 ```
-    { res_cd : 1 (succes) or -1 (fail)
+    { res_cd : 0 (succes) or ...
     res_msg : ""  or "에러메시지",
     prd_name : 상품명(기부상품명),
     prd_id : 상품ID,
@@ -66,8 +66,8 @@ type : JSON
 ## res_cd (응답코드)
 | res_cd |	|
 |--|--|
-|0	|정상 처리|
-|2	|상품(기부횟차)이 없습니다.|
+|0	|성공|
+|2	|캠페인이 없습니다.|
 |3	|파라미터 오류 입니다.|
 |4	|체크코드가 잘못입력되었습니다.|
 |9	|시스템 에러 (관리자에문의바랍니다.)|
