@@ -9,7 +9,7 @@ https://www.tnpick.com/sho/api/v1/donation/campaign/{campaign_id}/?check_cd={CHE
 | 매크로명  | 설명   |
 |--|--|
 | {campaign_id} | 캠페인 ID : 0 을 입력하면 전체 기부 캠페인이 표시된다.  |
-| {CHECK_CD}  | 연동을 위한 api key  |
+| {CHECK_CD}  |  md5(연동을 위한 api key +  campaign_id)  |
 
 ## Response
 Type : JSON
@@ -39,7 +39,7 @@ https://www.tnpick.com/sho/api/v1/donation/rank/{campaign_id}/?check_cd={CHECK_C
 | 매크로명  | 설명   |
 |--|--|
 | {campaign_id} | 캠페인 ID : 0 을 입력하면 전체 횟차(누적) 순위가 표시된다.  |
-| {CHECK_CD}  | 연동을 위한 api key  |
+| {CHECK_CD}  | md5(연동을 위한 api key +  campaign_id)  |
 
 
 
