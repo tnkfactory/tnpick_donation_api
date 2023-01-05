@@ -3,8 +3,13 @@
 Method : GET/POST
 
 ```
-https://www.tnpick.com/sho/api/v1/donation/campaign/?pid={CHECK_CD}
+https://www.tnpick.com/sho/api/v1/donation/campaign/{campaign_id}/?check_cd={CHECK_CD}
 ```
+
+| 매크로명  | 설명   |
+|--|--|
+| {campaign_id} | 캠페인 ID : 0 을 입력하면 전체 기부 캠페인이 표시된다.  |
+| {CHECK_CD}  | 연동을 위한 api key  |
 
 ## Response
 Type : JSON
@@ -16,13 +21,19 @@ Type : JSON
     }
 ```
 
+| 컬럼명| 설명   | 설명 |
+|--|--|--|
+| res_cd | 응답코드  | 0 (성공),  아래 표 참조 |
+| campaign_list | 기부캠페인 LIST  |
+
+
 # 기부 순위 조회
 
 ## Request  
 
 Method : GET/POST
 ```
-https://www.tnpick.com/sho/api/v1/donation/rank/{campaign_id}/?pid={CHECK_CD}
+https://www.tnpick.com/sho/api/v1/donation/rank/{campaign_id}/?check_cd={CHECK_CD}
 ```
 
 | 매크로명  | 설명   |
