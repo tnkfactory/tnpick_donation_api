@@ -26,6 +26,13 @@ Type : JSON
 | res_cd | 응답코드  0 (성공),  아래 표 참조 |
 | campaign_list | 기부 캠페인 LIST (JSONArray)  |
 
+## campaign_list
+
+| 컬럼명| 설명   |
+|--|--|
+| campaign_id |  기부 캠페인 ID  |
+| campaign_name | 기부 캠페인 명  |
+
 ## Example
 
 ```
