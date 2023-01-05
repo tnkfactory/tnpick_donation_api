@@ -29,7 +29,7 @@ type : JSON
 
 | 컬럼명| 설명   | 설명 |
 |--|--|--|
-| res_cd | 응답코드  | 1 (성공), -1(실패) |
+| res_cd | 응답코드  | 0 (성공),  아래 표 참조 |
 | res_msg | 응답 메시지  | 성공이면 "", 실패이면 메시지 출력
 | prd_name | 상품명  | 기부상품명 
 | prd_id | 상품ID  | 기부상품 ID
@@ -45,4 +45,11 @@ type : JSON
 | rank | 순위  |
 | donation_count | 기부건수  |
 
+## res_cd (응답코드)
+|Result Code|	Description|
+|--|--|
+|0	|Success|
+|2	|No Campaigns|
+|4	|Wrong API KEY|
+|9	|System Error|
 
