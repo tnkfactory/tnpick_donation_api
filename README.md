@@ -2,19 +2,19 @@
 ## Request
 Method : GET/POST
 
-``
+```
         https://www.tnpick.com/sho/api/v1/donation/campaign/?pid={CHECK_CD}
-``
+```
 
 ## Response
 Type : JSON
-``
+```
      { res_cd : 1 (succes) or -1 (fail)
        campaign_list : [
                    { campaign_name : text, campaign_id : int }, { ... }, ...
                 ]
     }
-``
+```
 
 # 기부 순위 조회
 
