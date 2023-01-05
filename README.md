@@ -21,10 +21,10 @@ Type : JSON
     }
 ```
 
-| 컬럼명| 설명   | 설명 |
-|--|--|--|
-| res_cd | 응답코드  | 0 (성공),  아래 표 참조 |
-| campaign_list | 기부캠페인 LIST  |
+| 컬럼명| 설명   | 
+|--|--|
+| res_cd | 응답코드  0 (성공),  아래 표 참조 |
+| campaign_list | 기부 캠페인 LIST (JSONArray)  |
 
 
 # 기부 순위 조회
@@ -56,13 +56,13 @@ type : JSON
     }
 ```  
 
-| 컬럼명| 설명   | 설명 |
-|--|--|--|
-| res_cd | 응답코드  | 0 (성공),  아래 표 참조 |
-| res_msg | 응답 메시지  | 성공이면 "", 실패이면 메시지 출력
-| prd_name | 상품명  | 기부상품명 
-| prd_id | 상품ID  | 기부상품 ID
-| rank_list | 순위 LIST  | 순위 List (Array). JSONArray
+| 컬럼명| 설명   |
+|--|--|
+| res_cd | 응답코드   0 (성공),  아래 표 참조 |
+| res_msg | 응답 메시지  성공이면 "", 실패이면 메시지 출력 |
+| campaign_name | 기부 캠페인  |
+| campaign_id | 기부 캠페인 ID |
+| rank_list | 순위 LIST (JSONArray) |
 
 
 
