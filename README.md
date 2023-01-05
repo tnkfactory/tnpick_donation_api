@@ -1,16 +1,33 @@
-# 아이돌 리스트 조회 API
+# 기부 캠페인 조회
+## Request
+Method : GET/POST
+``
+        https://www.tnpick.com/sho/api/v1/donation/campaign/?pid={CHECK_CD}
+``
+
+## Response
+Type : JSON
+``
+     { res_cd : 1 (succes) or -1 (fail)
+       campaign_list : [
+                   { campaign_name : text, campaign_id : int }, { ... }, ...
+                ]
+    }
+``
+
+# 기부 순위 조회
 
 ## Request  
 
 Method : GET/POST
 
-        https://www.tnpick.com/sho/api/v1/donation/rank/{PRD_ID}/?check_cd={CHECK_CD}
+        https://www.tnpick.com/sho/api/v1/donation/rank/{campaign_id}/?pid={CHECK_CD}
 
 
 | 매크로명  | 설명   |
 |--|--|
-| {PRD_ID} | 상품 ID : 0 을 입력하면 전체 횟차(누적) 순위가 표시된다.  |
-| {CHECK_CD}  | md5hex( PRD_ID + API_KEY), api_key는 별도 전달 |
+| {campaign_id} | 캠페인 ID : 0 을 입력하면 전체 횟차(누적) 순위가 표시된다.  |
+| {CHECK_CD}  | 연동을 위한 api key  |
 
 
 
