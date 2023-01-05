@@ -46,10 +46,10 @@ type : JSON
 | donation_count | 기부건수  |
 
 ## res_cd (응답코드)
-|Result Code|	Description|
+| res_cd |	|
 |--|--|
-|0	|Success|
-|2	|No Campaigns|
-|4	|Wrong API KEY|
-|9	|System Error|
+|0	|정상 처리|
+|2	|상품(기부횟차)이 없습니다.|
+|4	|체크코드가 잘못입력되었습니다.|
+|9	|시스템 에러 (관리자에문의바랍니다.)|
 
