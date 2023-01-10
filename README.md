@@ -102,7 +102,7 @@ type : JSON
 
 ## rank_list
 
-| 컬럼명| 설명   |
+| 컬럼명| 설명  |
 |--|--|
 | idol_name | 아이돌 이름  |
 | rank | 순위  |
@@ -154,7 +154,7 @@ https://www.tnpick.com/sho/api/v1/donation/rank/0/?check_cd=23sd7f28000ff8d19a56
 
 
 # res_cd (응답코드)
-| res_cd |	|
+| res_cd | 설명 |
 |--|--|
 |0	|성공|
 |2	|캠페인이 없습니다.|
@@ -162,5 +162,5 @@ https://www.tnpick.com/sho/api/v1/donation/rank/0/?check_cd=23sd7f28000ff8d19a56
 |4	|체크코드가 잘못입력되었습니다.|
 |9	|시스템 에러 입니다.(관리자에 문의)|
 
----
+
 
