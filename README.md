@@ -35,7 +35,7 @@ Type : JSON
 ## Example
 
 ```
-https://www.tnpick.com/sho/api/v1/donation/campaigns/0/?check_cd=7f28000ff8d19a569e7feecd7a9408ca
+https://www.tnpick.com/sho/api/v1/donation/campaigns/0/?check_cd=7f28000ff8d19a569e72323feecsd7sda9408ca
 ```
 
 ```
@@ -111,7 +111,7 @@ type : JSON
 ## Example
 
 ```
-https://www.tnpick.com/sho/api/v1/donation/rank/0/?check_cd=7f28000ff8d19a569e7feecd7a9408ca
+https://www.tnpick.com/sho/api/v1/donation/rank/0/?check_cd=23sd7f28000ff8d19a569e7feecd7a9323408ca
 
 ```
 
