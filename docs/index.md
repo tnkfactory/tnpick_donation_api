@@ -162,11 +162,6 @@ https://www.tnpick.com/sho/api/v1/donation/rank/0/?check_cd=23sd7f28000ff8d19a56
 |4	| 체크코드가 잘못입력되었습니다. |
 |9	| 시스템 에러 입니다.(관리자에 문의) |
 
-# list
-| 컬럼명| 설명  |
-|--|--|
-| idol_name | 아이돌 이름  |
-| rank | 순위  |
-| donation_count | 기부건수  |
+
 
 
