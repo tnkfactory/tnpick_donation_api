@@ -153,7 +153,7 @@ https://www.tnpick.com/sho/api/v1/donation/rank/0/?check_cd=23sd7f28000ff8d19a56
 ```
 
 
-# 3. res_cd (응답코드)
+# 3. 응답코드 (res_cd)
 
 | res_cd | 설명 |
 |--|--|
