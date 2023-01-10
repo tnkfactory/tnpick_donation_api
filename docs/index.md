@@ -123,27 +123,27 @@ https://www.tnpick.com/sho/api/v1/donation/rank/0/?check_cd=23sd7f28000ff8d19a56
    "res_cd":0,
    "rank_list":[
       {
-         "idol_name":"박창근♥",
+         "idol_name":"박창근",
          "donation_count":857,
          "rank":1
       },
       {
-         "idol_name":"이솔로몬♥",
+         "idol_name":"이솔로몬",
          "donation_count":638,
          "rank":2
       },
       {
-         "idol_name":"제이호♥",
+         "idol_name":"제이호",
          "donation_count":214,
          "rank":3
       },
       {
-         "idol_name":"박장현♥",
+         "idol_name":"박장현",
          "donation_count":206,
          "rank":4
       },
       {
-         "idol_name":"이승윤♥",
+         "idol_name":"이승윤",
          "donation_count":150,
          "rank":5
       }
