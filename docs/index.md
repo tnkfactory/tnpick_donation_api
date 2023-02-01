@@ -2,7 +2,7 @@
 ## Request
 
 ```
-https://www.tnpick.com/sho/api/v1/donation/campaign/{campaign_id}/?check_cd={check_cd}
+https://api3.tnkfactory.com/tnk/api/cps/donation/campaign/{campaign_id}/?check_cd={check_cd}
 ```
 
 | 매크로명  | 설명   |
@@ -35,7 +35,7 @@ Type : JSON
 ## Example
 
 ```
-https://www.tnpick.com/sho/api/v1/donation/campaigns/0/?check_cd=7f28000ff8d19a569e72323feecsd7sda9408ca
+https://api3.tnkfactory.com/tnk/api/cps/donation/campaigns/0/?check_cd=7f28000ff8d19a569e72323feecsd7sda9408ca
 ```
 
 ```
@@ -65,7 +65,7 @@ https://www.tnpick.com/sho/api/v1/donation/campaigns/0/?check_cd=7f28000ff8d19a5
 ## Request  
 
 ```
-https://www.tnpick.com/sho/api/v1/donation/rank/{campaign_id}/?check_cd={check_cd}
+https://api3.tnkfactory.com/tnk/api/cps/donation/rank/{campaign_id}/?check_cd={check_cd}
 
 ```
 
