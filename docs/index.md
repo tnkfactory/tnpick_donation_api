@@ -8,7 +8,7 @@ https://www.tnpick.com/sho/api/v1/donation/campaign/{campaign_id}/?check_cd={che
 | 매크로명  | 설명   |
 |--|--|
 | {campaign_id} | 캠페인 ID : 0 을 입력하면 전체 기부 캠페인이 표시된다.  |
-| {check_cd}  |  md5(연동을 위한 api_key +  campaign_id)  , api_key 는 별도 전달 |
+| {check_cd}  |  md5(api_key + campaign_id)  , api_key 는 별도 전달 |
 
 ## Response
 Type : JSON
