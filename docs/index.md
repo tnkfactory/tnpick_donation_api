@@ -15,7 +15,7 @@ Type : JSON
 ```
      { res_cd : 0 (succes) or ...
        campaign_list : [
-                   { campaign_name : text, campaign_id : int }, { ... }, ...
+                   { campaign_name : text, campaign_id : number }, { ... }, ...
                 ]
     }
 ```
@@ -81,10 +81,10 @@ type : JSON
 ```
     { res_cd : 0 (succes) or ...
     res_msg : ""  or "에러메시지",
-    prd_name : 상품명(기부상품명),
-    prd_id : 상품ID,
+    campaign_name : 기부캠페인 명,
+    campaign_id : 캠페인 ID,
     rank_list : [
-                   { idol_name : text, rank : int, donation_count : int}, { ... }, ...
+                   { idol_name : text, rank : number, donation_count : number}, { ... }, ...
                 ]
     }
     
@@ -94,7 +94,7 @@ type : JSON
 |--|--|
 | res_cd | 응답코드   0 (성공),  아래 표 참조 |
 | res_msg | 응답 메시지  성공이면 "", 실패이면 메시지 출력 |
-| campaign_name | 기부 캠페인  |
+| campaign_name | 기부 캠페인 이름  |
 | campaign_id | 기부 캠페인 ID |
 | rank_list | 순위 LIST (JSONArray) |
 
@@ -105,8 +105,8 @@ type : JSON
 | 컬럼명 | 설명  |
 |--|--|
 | idol_name | 아이돌 이름  |
-| rank | 순위  |
-| donation_count | 기부건수  |
+| rank | 순위  (number) |
+| donation_count | 기부건수 (number)  |
 
 ## Example
 
@@ -118,8 +118,8 @@ https://www.tnpick.com/sho/api/v1/donation/rank/0/?check_cd=23sd7f28000ff8d19a56
 ```
 {
    "res_msg":"",
-   "prd_nm":"전체누적순위",
-   "prd_id":0,
+   "campaign_name":"전체누적순위",
+   "campaign_id":0,
    "res_cd":0,
    "rank_list":[
       {
