@@ -111,7 +111,7 @@ type : JSON
 ## Example
 
 ```
-https://www.tnpick.com/sho/api/v1/donation/rank/0/?check_cd=23sd7f28000ff8d19a569e7feecd7a9323408ca
+https://api3.tnkfactory.com/tnk/api/cps/donation/rank/0/?check_cd=23sd7f28000ff8d19a569e7feecd7a9323408ca
 
 ```
 
